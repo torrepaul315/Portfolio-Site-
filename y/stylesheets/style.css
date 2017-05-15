@@ -1,0 +1,39 @@
+
+body { color: rgb(140, 14, 14);
+  font-family: 'Special Elite', cursive;
+  }
+
+.zermattBackground {
+  background-image:url( "../images/backgroundZermatt.jpeg");
+  background-size: cover;
+background-repeat: no-repeat;
+height: 800px;
+}
+.titlebox {
+  margin-top:100px;
+}
+
+#firstName {
+  font-size: 100px;
+  margin-bottom: -30px;
+}
+
+#lastName {
+  font-size: 45px;
+  letter-spacing: 15px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#jobTitle{
+  font-size: 21px;
+  margin-top: -10px;
+
+}
+
+
+/*fonts to consider! */
+/*font-family: 'Special Elite', cursive;
+font-family: 'Forum', cursive;
+font-family: 'Convergence', sans-serif;
+font-family: 'Reenie Beanie', cursive;*/
