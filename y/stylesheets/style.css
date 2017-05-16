@@ -1,9 +1,11 @@
 
-body { color: rgb(140, 14, 14);
-  font-family: 'Special Elite', cursive;
-  }
+body { background-color: rgb(216, 216, 216);
 
+  }
+.navbar { color: rgb(140, 14, 14);
+  }
 .zermattBackground {
+
   background-image:url( "../images/backgroundZermatt.jpeg");
   background-size: cover;
 background-repeat: no-repeat;
@@ -11,7 +13,10 @@ height: 800px;
 }
 .titlebox {
   margin-top:100px;
+  color: rgb(140, 14, 14);
+    font-family: 'Special Elite', cursive;
 }
+
 
 #firstName {
   font-size: 100px;
@@ -37,10 +42,67 @@ height: 800px;
   margin-left:60px;
 }
 
-.projects{
-  height: 500px;
+#projBanner{
+  font-size: 65px;
+  margin-top: -10px;
+  color: rgb(140, 14, 14);
+    font-family: 'Special Elite', cursive;
 }
 
+/*trying to figure out the show navbar on hover feature! might just need to go to codepen for the toggle navbar one?*/
+.showme{
+display: none;
+}
+.showhim:hover .showme{
+display : block;
+}
+
+.projects {
+  font-size: 60px;
+  margin:3px solid white;
+  border:2px solid black;
+  border-radius: 5px;
+
+  padding-left:0px;
+  padding-right:0px;
+
+  font-family:'Convergence';
+  opacity:0.7;
+}
+
+.projects:hover {
+    opacity: 1.0;
+    /*filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*Convergence|Forum|Reenie+Beanie|Special+Elite*/
+.pReddit {
+  background-image:url( "../images/pReddit.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 255px;
+}
+.alumnize {
+  background-image:url( "../images/alumnize.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 255px;
+}
+
+.gBlog {
+  background-image:url( "../images/snowflakeBlog.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 255px;
+}
+
+
+.pTitle {
+  margin-top:100px;
+  text: grey;
+}
 /*fonts to consider! */
 /*font-family: 'Special Elite', cursive;
 font-family: 'Forum', cursive;

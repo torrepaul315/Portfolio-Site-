@@ -25,6 +25,46 @@
     <link href="https://fonts.googleapis.com/css?family=Convergence|Forum|Reenie+Beanie|Special+Elite" rel="stylesheet">
   </head>
   <body>
+  <!-- navbar -->
+
+<!--Navbar-->
+<nav class=" navbar navbar-toggleable-md navbar-dark black bg-primary"
+data-aos="fade-down" data-aos-duration="3000"
+>
+  <div class="container-fluid">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+          <strong>PT</strong>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav1">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item dropdown btn-group">
+                  <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                      <a class="dropdown-item">Action</a>
+                      <a class="dropdown-item">Another action</a>
+                      <a class="dropdown-item">Something else here</a>
+                  </div>
+              </li>
+          </ul>
+
+      </div>
+  </div>
+</nav>
+
+
+    <!-- main jumbotron -->
     <div class="container-fluid mainImage">
 
       <div class="jumbotron jumbotron-fluid zermattBackground">
@@ -40,9 +80,26 @@
             </div>
         </div>
       </div>
-
     </div>
-    <div class="container-fluid projects">
+    <h1 class="text-center projBanner" id="projBanner">
+      projects
+    </h1>
+
+    <div class="container-fluid">
+      <div class="">
+        <div class="pReddit projects col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- <img class="img-responsive" src="images/snowflakeBlog.jpg"> -->
+          <h1 class="pTitle text-center">Paul's Opinionated</h1>
+        </div>
+
+        <div id="centerDiv" class="alumnize projects col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <h1 class="pTitle text-center">Alumnize</h1>
+        </div>
+
+        <div class="gBlog projects  col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <h1 class="pTitle text-center">SnowflakeBlog</h1>
+        </div>
+      </div>
     </div>
 
   <!-- jQuery -->
@@ -59,9 +116,7 @@
     <!-- Material Design Bootstrap JavaScript -->
     <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js'>
     </script>
-
-    <!-- My index.html js file -->
-    <!-- <script type="text/javascript"
-    src="javascripts/index.js"></script> -->
+    <script type="text/javascript"
+    src="javascript/index.js"></script>
   </body>
 </html>
