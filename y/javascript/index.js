@@ -7,14 +7,14 @@ $(document).ready(function(){
 });
 
 
-$( ".pReddit" ).click(function() {
-  window.location.href="https://paul-rclone.herokuapp.com/";
-});
+// $( ".pReddit" ).click(function() {
+//   window.location.href="https://paul-rclone.herokuapp.com/";
+// });
 
 
-$( ".alumnize" ).click(function() {
-  window.location.href="https://alumnize-9cdd1.firebaseapp.com/#/";
-});
+// $( ".alumnize" ).click(function() {
+//   window.location.href="https://alumnize-9cdd1.firebaseapp.com/#/";
+// });
 
 
 $( ".gBlog" ).click(function() {
