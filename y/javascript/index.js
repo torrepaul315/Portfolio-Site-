@@ -33,3 +33,13 @@ $(".aboutNav").click(function() {
         scrollTop: $(".aboutBanner").offset().top},
         'slow');
 });
+
+$(".connectNav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".connectBanner").offset().top},
+        'slow');
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

@@ -54,16 +54,16 @@ data-aos="fade-down" data-aos-duration="3000"
                   href="https://drive.google.com/file/d/0B0Vxg6NA-SskU2lKNWhVOGt3UUE/view?usp=sharing">Resume</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link">Connect </a>
+                  <a class="nav-link  connectNav">Connect </a>
               </li>
-              <li class="nav-item dropdown btn-group">
+              <!-- <li class="nav-item dropdown btn-group">
                   <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                   <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
                       <a class="dropdown-item">Action</a>
                       <a class="dropdown-item">Another action</a>
                       <a class="dropdown-item">Something else here</a>
                   </div>
-              </li>
+              </li> -->
           </ul>
 
       </div>
@@ -117,24 +117,51 @@ data-aos="fade-down" data-aos-duration="3000"
       <hr class="aboutBar"></hr>
       <div class="row">
         <div class="col-lg-4"></div>
-          <p class="aboutInfo col-lg-4">Web Developer. Passionate technologist. Armchair MBA. Pragmatist. Having worked too long with poorly designed tools, I am passionate about building systems that save individuals and companies time and money.
+          <p class="aboutInfo col-lg-4 card">Web Developer. Passionate technologist. Armchair MBA. Pragmatist. Having worked too long with poorly designed tools, I am passionate about building systems that save individuals and companies time and money.
           </p>
       </div>
     </div>
     <div class="container-fluid">
+      <h1 class="text-center  connectBanner" id="aboutBanner">
+        Connect
+      </h1>
+      <!-- <div class="card">
+        <div class="card-block"> -->
+      <hr class="aboutBar"></hr>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"></div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card-block">
           <form action="https://formspree.io/torrepaul@gmail.com"
           method="POST">
-            <input type="text" name="name" placeholder="email message">
-            <input type="email" name="_replyto" placeholder="your reply email">
-            <input type="submit" value="Send">
+          <div class="md-form">
+            <i class="fa fa-user prefix"></i>
+            <input type="text" id="form1" class="form-control">
+            <label for="form1">Your name</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-tag prefix"></i>
+            <input class="formspree" type="text" name="name" >
+            <label for="form3">Your Message</label>
+          </div>
+          <div class="md-form">
+            <i class="fa fa-envelope prefix "></i>
+            <input class="formspree"type="email" name="_replyto">
+            <label for="form3">Your Email</label>
+          </div>
+          <div class="text-center">
+          <button type="submit"  class="btn btn-small emailMe">Send
+            </button>
             <input type="hidden" name="_next" value="/thanks.html" />
+          </div>
           </form>
           </div>
+        </div>
       </div>
     </div>
+  <!-- </div>
+  </div> -->
 <!--Footer-->
 <footer class="page-footer grey center-on-small-only">
 

@@ -17,7 +17,9 @@ height: 800px;
     font-family: 'Special Elite', cursive;
 }
 
-
+.emailMe {
+  background-color: rgb(140, 14, 14);
+}
 #firstName {
   font-size: 100px;
   margin-bottom: -30px;
@@ -133,6 +135,9 @@ display : block;
   margin: auto;
   width: 50%;
 
+}
+.formspree {
+  background-color: white;
 }
 /*fonts to consider! */
 /*font-family: 'Special Elite', cursive;
