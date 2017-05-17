@@ -121,11 +121,19 @@ display : block;
 
 }
 
+
 .aboutBar {
   width:40%;
   border: 1px solid;
 }
 
+.trailhead {
+  height:35px;
+  display: block;
+  margin: auto;
+  width: 50%;
+
+}
 /*fonts to consider! */
 /*font-family: 'Special Elite', cursive;
 font-family: 'Forum', cursive;
