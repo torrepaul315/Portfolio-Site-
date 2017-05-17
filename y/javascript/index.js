@@ -18,6 +18,18 @@ $( ".alumnize" ).click(function() {
 
 
 $( ".gBlog" ).click(function() {
-	
+
   window.location.href="https://torresblog.herokuapp.com/";
+});
+
+$(".projNav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".projBanner").offset().top},
+        'slow');
+});
+
+$(".aboutNav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".aboutBanner").offset().top},
+        'slow');
 });

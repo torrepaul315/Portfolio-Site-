@@ -18,3 +18,5 @@ for the projects, use the md bootstrap 1- on hover feature to change the color w
 use formsspree for an email feature on the site!
 
 consider- creat larger shadows off of background? was trying to use z-index but its not doing what I'd like
+
+have social icons, but make them larger!

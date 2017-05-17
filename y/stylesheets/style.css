@@ -103,6 +103,29 @@ display : block;
   margin-top:100px;
   text: grey;
 }
+
+#aboutBanner{
+  font-size: 65px;
+  margin-top: 20px;
+  color: rgb(140, 14, 14);
+    font-family: 'Special Elite', cursive;
+}
+
+.paulMtElbert {
+  border-radius: 250px;
+}
+.aboutInfo {
+  color: rgb(140, 14, 14);
+    font-family: 'Special Elite', cursive;
+  font-size:21px;
+
+}
+
+.aboutBar {
+  width:40%;
+  border: 1px solid;
+}
+
 /*fonts to consider! */
 /*font-family: 'Special Elite', cursive;
 font-family: 'Forum', cursive;
