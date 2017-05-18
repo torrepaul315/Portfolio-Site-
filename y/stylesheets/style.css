@@ -23,7 +23,13 @@ body { background-color: rgb(216, 216, 216);
   }
 
 
+.titleBar {
+  width: 80%;
+  border: 5px solid inherit;
+    background-color: rgb(140, 14, 14);
 
+
+}
 
 
 .zermattBackground {
@@ -48,10 +54,10 @@ height: 800px;
 }
 
 #lastName {
-  font-size: 80px;
+  font-size: 75px;
   letter-spacing: 15px;
   margin-top: -10px;
-  margin-bottom: -10px;
+  margin-bottom: -30px;
 }
 
 #jobTitle{
@@ -71,6 +77,7 @@ height: 800px;
   margin-top: -10px;
   color: rgb(140, 14, 14);
     font-family: 'Special Elite', cursive;
+  margin-bottom: 5px;
 }
 
 /*trying to figure out the show navbar on hover feature! might just need to go to codepen for the toggle navbar one?*/
@@ -128,6 +135,13 @@ display : block;
   text: grey;
 }
 
+.skillStuff {
+  height:100px;
+}
+
+.dSize{
+  font-size:25px;
+}
 #aboutBanner{
   font-size: 65px;
   margin-top: 20px;

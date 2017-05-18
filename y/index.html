@@ -23,39 +23,16 @@
     href="stylesheets/style.css"></link>
 
     <link href="https://fonts.googleapis.com/css?family=Convergence|Forum|Reenie+Beanie|Special+Elite" rel="stylesheet">
+
+    <!-- in your header -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+
+<!-- in your body -->
   </head>
   <body>
   <!-- navbar -->
 
-<!--Navbar-->
-<!-- <nav class=" navbar navbar-toggleable-md navbar-dark grey bg-primary"
-data-aos="fade-down" data-aos-duration="3000"
->
-  <div class="container-fluid">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
 
-      </button>
-      <a class="navbar-brand" href="#">
-          <strong>PT</strong>
-      </a>
-      <div class="collapse navbar-collapse text-center" id="navbarNav1">
-          <ul class="navbar-nav mr-auto text-center">
-              <li class="nav-item active">
-                  <a class="nav-link projNav">Projects
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link">Skills</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link aboutNav">About Me</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link"
-                  href="https://drive.google.com/file/d/0B0Vxg6NA-SskU2lKNWhVOGt3UUE/view?usp=sharing">Resume</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link  connectNav">Connect </a>
-              </li> -->
 
               <nav class="navbar navbar-default navbar-inverse">
             <div class="container-fluid">
@@ -83,7 +60,7 @@ data-aos="fade-down" data-aos-duration="3000"
                       <li role="separator" class="divider"></li>
                       <li><a href="#">One more separated link</a></li> -->
                     </ul>
-                  </li>
+                </li>
               </div>
             </div>
             </div>
@@ -101,8 +78,9 @@ data-aos="fade-down" data-aos-duration="3000"
             <h1 id="firstName">Paul</h1>
 
             <h2 id="lastName">Torres</h2>
-
+            <!-- <hr class="titleBar"></hr> -->
             <h4 id="jobTitle">Full Stack Developer</h4>
+            <!-- <hr class="aboutBar"></hr> -->
             <h4  id="location">Denver, CO</h4>
             </div>
         </div>
@@ -114,20 +92,12 @@ data-aos="fade-down" data-aos-duration="3000"
     <hr class="aboutBar"></hr>
     <div class="container-fluid">
       <div class="">
-        <div class="pReddit projects col-xs-12 col-sm-6 col-md-4 col-lg-4" data-toggle="modal" data-target="#basicExample">
+        <div class="pReddit projects col-xs-12 col-sm-6 col-md-4 col-lg-4" data-toggle="modal" data-target="#RedditExample">
 
           <h1 class="pTitle text-center">Paul's Opinionated</h1>
         </div>
-
-
-
-        <!-- Button trigger modal -->
-        <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#basicExample">
-            Launch demo modal
-        </button> -->
-
-        <!-- Modal -->
-        <div class="modal fade" id="basicExample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- Modal for Paul's Opinionated-->
+        <div class="modal fade" id="RedditExample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <!--Content-->
                 <div class="modal-content">
@@ -148,24 +118,20 @@ data-aos="fade-down" data-aos-duration="3000"
                     </div>
                     <!--Footer-->
                     <div class="modal-footer">
-                      <a href="https://paul-rclone.herokuapp.com/">Visit deployed Site
+                      <a href="https://paul-rclone.herokuapp.com/">Visit deployed Site</a>
                     </div>
                 </div>
                 <!--/.Content-->
             </div>
         </div>
-        <!-- Modal -->
+        <!-- Modal for Alumnize -->
 
-
-
-
-
-
-        <div id="centerDiv" class="alumnize projects col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div id="centerDiv" class="alumnize projects col-xs-12 col-sm-6 col-md-4 col-lg-4"
+        data-toggle="modal" data-target="#alumnizeExample">
           <h1 class="pTitle text-center">Alumnize</h1>
         </div>
 
-        <div class="modal fade" id="basicExample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="alumnizeExample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <!--Content-->
                 <div class="modal-content">
@@ -174,19 +140,19 @@ data-aos="fade-down" data-aos-duration="3000"
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <h4 class="modal-title w-100" id="myModalLabel">Paul's Opinionated Reddit Clone</h4>
+                        <h4 class="modal-title w-100" id="myModalLabel">Alumnize</h4>
                     </div>
                     <!--Body-->
                     <div class="modal-body">
-                      A full-stack Angular Js blog site that allows visitors to create, upvote, downvote and add comments.
+                      A full-stack ReactJs app that shows data on Galvanize Graduates
                       <br></br>
                       Technologies used:
-                      Front end- Angular, Material Design Bootstrap, JavaScript, HTML5, CSS, jquery, moment.js
+                      Front end- React, React Google Maps API, HTML5, CSS, jquery,
                       Back end- PostGreSQL, knex.js, Node.js/Express
                     </div>
                     <!--Footer-->
                     <div class="modal-footer">
-                      <a href="https://alumnize-9cdd1.firebaseapp.com/#/">Visit deployed Site
+                      <a href="https://alumnize-9cdd1.firebaseapp.com/#/">Visit deployed Site</a>
                     </div>
                 </div>
                 <!--/.Content-->
@@ -194,11 +160,62 @@ data-aos="fade-down" data-aos-duration="3000"
         </div>
         <!-- Modal -->
 
-        <div class="gBlog projects  col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="gBlog projects  col-xs-12 col-sm-6 col-md-4 col-lg-4"
+        data-toggle="modal" data-target="#gBlogExample">
           <h1 class="pTitle text-center">SnowflakeBlog</h1>
         </div>
       </div>
+
+      <div class="modal fade" id="gBlogExample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                  <!--Header-->
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                      <h4 class="modal-title w-100" id="myModalLabel">Snowflake Blog</h4>
+                  </div>
+                  <!--Body-->
+                  <div class="modal-body">
+                    A full-stack Node/Express.js app
+                    <br></br>
+                    Technologies used:
+                    Front end- JavaScript, HTML5, CSS, jquery,
+                    Back end- PostGreSQL, knex.js, Node.js/Express
+                  </div>
+                  <!--Footer-->
+                  <div class="modal-footer">
+                    <a href="https://torresblog.herokuapp.com/">Visit deployed Site</a>
+                  </div>
+              </div>
+              <!--/.Content-->
+          </div>
+      </div>
+
+
+
+
+
+
     </div>
+
+    <!-- <div class="container-fluid">
+      <h1 class="text-center  connectBanner" id="aboutBanner">
+      Skills
+      </h1>
+      <hr class="aboutBar"></hr>
+      <div class='card'>
+        <div class="card-block skillStuff">
+        <i class="devicon-angularjs-plain dSize"></i><br>
+        Angular
+        <i class="devicon-angularjs-plain dSize"></i>
+
+        </div>
+
+      </div>
+    </div> -->
     <div class="container-fluid text-center">
       <h1 class="text-center aboutBanner" id="aboutBanner">
         About Me
@@ -250,6 +267,12 @@ data-aos="fade-down" data-aos-duration="3000"
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid">
+      <h1 class="text-center  connectBanner" id="aboutBanner">
+      Skills
+      </h1>
     </div>
   <!-- </div>
   </div> -->

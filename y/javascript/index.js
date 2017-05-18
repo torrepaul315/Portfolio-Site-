@@ -17,10 +17,10 @@ $(document).ready(function(){
 // });
 
 
-$( ".gBlog" ).click(function() {
-
-  window.location.href="https://torresblog.herokuapp.com/";
-});
+// $( ".gBlog" ).click(function() {
+//
+//   window.location.href="https://torresblog.herokuapp.com/";
+// });
 
 $(".projNav").click(function() {
     $('html,body').animate({
