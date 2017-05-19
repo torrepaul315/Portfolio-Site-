@@ -14,7 +14,7 @@ body { background-color: rgb(216, 216, 216);
   .dropdown-toggle {
     color: rgb(140, 14, 14);
       font-family: 'Special Elite';
-      font-size:20px;
+      font-size:30px;
       margin-top:10px;
 
   }
@@ -62,7 +62,7 @@ height: 800px;
 
 #jobTitle{
   font-size: 31px;
-  margin-top: -10px;
+  margin-top: 15px;
 
 }
 
@@ -91,7 +91,7 @@ display : block;
 .projects {
   font-size: 60px;
   margin:3px solid white;
-  border:2px solid black;
+  border:1px solid grey;
   border-radius: 5px;
 
   padding-left:0px;
@@ -136,11 +136,31 @@ display : block;
 }
 
 .skillStuff {
-  height:100px;
+  height:150px;
+  width:100%;
+  margin-left: 20px;
+}
+.card {
+  border: 5px, 5px, 5px, 5px;
+}
+.bump {
+  margin-left:60px;
 }
 
+
+/*.bump2 {
+  margin-left:60px;
+  padding-left:30px;
+  padding-right: 0px;
+}*/
+
+.bump2 {
+    margin-left: 67px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
 .dSize{
-  font-size:25px;
+  font-size:75px;
 }
 #aboutBanner{
   font-size: 65px;
@@ -151,6 +171,8 @@ display : block;
 
 .paulMtElbert {
   border-radius: 250px;
+  border:1px solid grey;
+
 }
 .aboutInfo {
   color: rgb(140, 14, 14);
@@ -164,6 +186,18 @@ display : block;
   width:40%;
   border: 1px solid;
 }
+.fah {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fa {
+  font-size: 30px;
+  color: rgb(216, 216, 216);
+  /*padding:10px;*/
+  margin-left: 3px;
+  margin-right: 3px;
+}
 
 .trailhead {
   height:35px;
@@ -174,6 +208,10 @@ display : block;
 }
 .formspree {
   background-color: white;
+}
+
+.ffont {
+  font-size:20px;
 }
 /*fonts to consider! */
 /*font-family: 'Special Elite', cursive;

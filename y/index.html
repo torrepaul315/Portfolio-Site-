@@ -27,6 +27,8 @@
     <!-- in your header -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
 
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+
 <!-- in your body -->
   </head>
   <body>
@@ -38,14 +40,16 @@
             <div class="container-fluid">
               <div class="row balance">
               <div class="col-lg-1 navbarInit">PT</div>
-              <div class="col-lg-9"></div>
-              <div class="navbar-header">
+              <div class="col-lg-8"></div>
+              <div class="col-lg-2 navbar-header">
                 <!-- <a class="navbar-brand" href="#">
                   <i class="devicon-angularjs-plain"></i>
 
                 </a> -->
                 <li class="dropdown align-right">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTENTS<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTENTS
+                      <!-- <span class="caret"></span> -->
+                    </a>
                     <ul class="dropdown-menu">
                       <li class='projNav'>Projects</li>
                       <li role="separator" class="divider"></li>
@@ -61,6 +65,31 @@
                       <li><a href="#">One more separated link</a></li> -->
                     </ul>
                 </li>
+              </div>
+              <div class="col-lg-1 fah">
+                <a href="https://www.linkedin.com/in/p-torres/"
+                  class="btn-floating btn-medium btn-li"><i class="fa fa-linkedin"> </i></a>
+                  <a href="https://github.com/torrepaul315"
+                    class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a>
+                    <a href="https://www.instagram.com/hey_hey_lets_ski/?hl=en"
+                      class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"> </i></a>
+
+                <!-- <ul>
+
+                    <li><a href="https://www.linkedin.com/in/p-torres/"
+                      class="btn-floating btn-medium btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                    <li><a href="https://github.com/torrepaul315"
+                      class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a></li>
+
+                    <li><a href="https://www.instagram.com/hey_hey_lets_ski/?hl=en"
+                      class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"> </i></a></li> -->
+                    <!-- a trailhead social icon in the mix....cause why not!?!?! -->
+
+                      <!-- <li><a href="https://trailhead.salesforce.com/en/users/profiles/00550000006cd9pAAA"
+                      class="btn-floating btn-small btn trailhead"><img src="images/trailheadLogo.jpg"></a></li> -->
+
+
+
               </div>
             </div>
             </div>
@@ -201,27 +230,87 @@
 
     </div>
 
-    <!-- <div class="container-fluid">
+    <div class="container-fluid">
       <h1 class="text-center  connectBanner" id="aboutBanner">
       Skills
       </h1>
       <hr class="aboutBar"></hr>
-      <div class='card'>
-        <div class="card-block skillStuff">
-        <i class="devicon-angularjs-plain dSize"></i><br>
-        Angular
-        <i class="devicon-angularjs-plain dSize"></i>
+       <div class="row">
+        <div class="col-lg-3"></div>
+          <div class=''>
+            <div class="card-block skillStuff">
 
+                <div class="col-lg-1 text-center bump card">
+                  <i class=" devicon-angularjs-plain dSize"></i>
+                  Angular
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-javascript-plain dSize"></i>
+                  Javascript
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-bootstrap-plain dSize"></i>
+                  Bootstrap
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-css3-plain dSize"></i>
+                  css3
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-html5-plain dSize"></i>
+                  html5
+                </div>
+
+              <div class="col-lg-3"></div>
+          </div>
+            <!-- </div>
+        </div> -->
+        <!-- <div class='card'>
+          <div class="card-block skillStuff"> -->
+
+              <div class="row">
+              <div class="col-lg-3"></div>
+                <div class="col-lg-1 bump2 card">
+                  <i class="devicon-jquery-plain dSize text-center"></i>
+                  jQuery
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-gulp-plain dSize"></i>
+                  Gulp
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-mocha-plain dSize"></i>
+                  Mocha
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-postgresql-plain dSize"></i>
+                  PostgreSQL
+                </div>
+                <div class="col-lg-1 text-center card">
+                  <i class="devicon-heroku-original dSize"></i>
+                  Heroku
+                </div>
+              </div>
+            <div class="col-lg-3"></div>
+          </div>
         </div>
+      </div>
+
+        <!-- technologies
+        <i class="devicon-git-plain dSize"></i> -->
+
 
       </div>
-    </div> -->
+
+
     <div class="container-fluid text-center">
       <h1 class="text-center aboutBanner" id="aboutBanner">
         About Me
       </h1>
       <hr class="aboutBar"></hr>
-      <img class="paulMtElbert" src="images/paulMtElbert.jpg">
+
+      <img class="paulMtElbert card" src="images/paulMtElbert.jpg">
+
       <hr class="aboutBar"></hr>
       <div class="row">
         <div class="col-lg-4"></div>
@@ -269,41 +358,21 @@
       </div>
     </div>
 
-    <div class="container-fluid">
-      <h1 class="text-center  connectBanner" id="aboutBanner">
-      Skills
-      </h1>
-    </div>
+  
   <!-- </div>
   </div> -->
 <!--Footer-->
-<footer class="page-footer grey center-on-small-only">
+<footer class="page-footer black center-on-small-only">
 
-    <!--Footer Links-->
-    <div class="container-fluid grey">
-        <div class="row">
-            <div class="social-section">
-          <ul>
 
-              <li><a href="https://www.linkedin.com/in/p-torres/"
-                class="btn-floating btn-medium btn-li"><i class="fa fa-linkedin"> </i></a></li>
-              <li><a href="https://github.com/torrepaul315"
-                class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a></li>
 
-              <li><a href="https://www.instagram.com/hey_hey_lets_ski/?hl=en"
-                class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"> </i></a></li>
-              <!-- a trailhead social icon in the mix....cause why not!?!?! -->
 
-                <!-- <li><a href="https://trailhead.salesforce.com/en/users/profiles/00550000006cd9pAAA"
-                class="btn-floating btn-small btn trailhead"><img src="images/trailheadLogo.jpg"></a></li> -->
-          </ul>
-      </div>
 
-    <!--/.Footer Links-->
+
 
     <!--Copyright-->
     <div class="footer-copyright">
-        <div class="container-fluid">
+        <div class="container-fluid ffont">
             © 2017 Copyright: Paul Torres
 
         </div>
