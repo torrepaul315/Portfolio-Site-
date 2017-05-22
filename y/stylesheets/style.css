@@ -138,14 +138,45 @@ display : block;
 .skillStuff {
   height:150px;
   width:100%;
-  margin-left: 20px;
+  margin-left: 15px;
 }
-.card {
+.skillIcon{
+  margin:20px;
   border: 5px, 5px, 5px, 5px;
 }
-.bump {
-  margin-left:60px;
+.skillAng{
+  margin-left:12px;
 }
+.skillJav {
+  margin-left:5px;
+}
+.skillBoo {
+  margin-left: 6px;
+}
+
+.skillCss {
+  margin-left: 25px;
+}
+.skillHtm {
+  margin-left: 20px;
+}
+
+.skillJqu {
+  margin-left: 15px;
+}
+.skillGul {
+  margin-left: 23px;
+}
+.skillMoc {
+  margin-left: 11px;
+}
+
+.skillHer {
+  margin-left: 15px;
+}
+/*.bump {
+  margin-left:60px;
+}*/
 
 
 /*.bump2 {
@@ -154,11 +185,11 @@ display : block;
   padding-right: 0px;
 }*/
 
-.bump2 {
+/*.bump2 {
     margin-left: 67px;
     padding-left: 25px;
     padding-right: 5px;
-}
+}*/
 .dSize{
   font-size:75px;
 }
@@ -169,10 +200,18 @@ display : block;
     font-family: 'Special Elite', cursive;
 }
 
-.paulMtElbert {
-  border-radius: 250px;
-  border:1px solid grey;
 
+.paulMtElbert {
+  /*border-radius: 50px;*/
+  /*border:1px solid grey;*/
+
+
+  /*background-image: url("../images/paulTorresPartialCrop.png");*/
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+
+  height: 300px;
+    width: 360px;
 }
 .aboutInfo {
   color: rgb(140, 14, 14);
@@ -181,7 +220,11 @@ display : block;
 
 }
 
-
+.Att {
+  margin-left: 450px;
+  height: 300px;
+  width: 500px;
+}
 .aboutBar {
   width:40%;
   border: 1px solid;
