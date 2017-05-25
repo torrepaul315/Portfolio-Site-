@@ -30,6 +30,11 @@ body { background-color: rgb(216, 216, 216);
 
 
 }
+.th {
+  height: 40px;
+  width: 35px;
+  padding-bottom: 13px;
+}
 .trailhead {
   margin-left:205px;
   margin-bottom: 10px;
@@ -239,7 +244,7 @@ display : block;
 }
 
 .fah {
-  padding-left: 80px;
+  padding-left: 40px;
   padding-right: 5px;
 }
 
