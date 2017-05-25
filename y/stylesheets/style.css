@@ -30,7 +30,12 @@ body { background-color: rgb(216, 216, 216);
 
 
 }
-
+.trailhead {
+  margin-left:205px;
+  margin-bottom: 10px;
+  height:25px;
+  width:30px;
+}
 
 .zermattBackground {
 
@@ -229,9 +234,18 @@ display : block;
   width:40%;
   border: 1px solid;
 }
+.sf {
+  background-color: rgb(216, 216, 216);
+}
+
 .fah {
-  padding-left: 5px;
+  padding-left: 80px;
   padding-right: 5px;
+}
+
+.invert {
+  filter: invert(85%);
+  margin-top: -14px;
 }
 
 .fa {
@@ -242,11 +256,11 @@ display : block;
   margin-right: 3px;
 }
 
-.trailhead {
+/*.trailhead {
   height:35px;
   display: block;
   margin: auto;
-  width: 50%;
+  width: 50%;*/
 
 }
 .formspree {
