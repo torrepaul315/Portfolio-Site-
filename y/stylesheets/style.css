@@ -13,7 +13,7 @@ body { background-color: rgb(216, 216, 216);
 
   .dropdown-toggle {
     color: rgb(140, 14, 14);
-      font-family: 'Special Elite';
+      font-family: 'Special';
       font-size:30px;
       margin-top:10px;
 
@@ -41,7 +41,10 @@ body { background-color: rgb(216, 216, 216);
   height:25px;
   width:30px;
 }
-
+.logo {
+  width:185px;
+  height:185px;
+}
 .zermattBackground {
 
   background-image:url( "../images/backgroundZermatt.jpeg");
@@ -50,11 +53,13 @@ background-repeat: no-repeat;
 height: 800px;
 }
 .titlebox {
-  margin-top:100px;
+  margin-top:60px;
   color: rgb(140, 14, 14);
-    font-family: 'Special Elite', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
-
+.contents {
+  font-family: 'Montserrat', sans-serif;
+}
 .emailMe {
   background-color: rgb(140, 14, 14);
 }
@@ -86,7 +91,7 @@ height: 800px;
   font-size: 65px;
   margin-top: -10px;
   color: rgb(140, 14, 14);
-    font-family: 'Special Elite', cursive;
+    font-family: 'montserrat', cursive;
   margin-bottom: 5px;
 }
 
@@ -115,7 +120,7 @@ display : block;
     opacity: 1.0;
     /*filter: alpha(opacity=100); /* For IE8 and earlier */
 }
-/*Convergence|Forum|Reenie+Beanie|Special+Elite*/
+/*Convergence|Forum|Reenie+Beanie|montserrat+Elite*/
 .pReddit {
   background-image:url( "../images/pReddit.jpg");
 
@@ -207,7 +212,7 @@ display : block;
   font-size: 65px;
   margin-top: 20px;
   color: rgb(140, 14, 14);
-    font-family: 'Special Elite', cursive;
+    font-family: 'montserrat', cursive;
 }
 
 
@@ -225,7 +230,7 @@ display : block;
 }
 .aboutInfo {
   color: rgb(140, 14, 14);
-    font-family: 'Special Elite', cursive;
+    font-family: 'montserrat', cursive;
   font-size:21px;
   padding-top: 10px;
 
@@ -270,6 +275,8 @@ display : block;
   width: auto;
 
 }
+
+
 .formspree {
   background-color: white;
 }
@@ -277,7 +284,7 @@ display : block;
 .ffont {
   font-size:20px;
   color: rgb(140, 14, 14);
-    font-family: 'Special Elite', cursive;
+    font-family: 'montserrat', sans-serif;
 }
 /*fonts to consider! */
 /*font-family: 'Special Elite', cursive;
