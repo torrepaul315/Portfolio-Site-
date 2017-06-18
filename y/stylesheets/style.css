@@ -121,6 +121,14 @@ display : block;
     /*filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 /*Convergence|Forum|Reenie+Beanie|montserrat+Elite*/
+.trg {
+  background-image:url( "../images/TRG_Main_Page.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 255px;
+}
+
 .pReddit {
   background-image:url( "../images/pReddit.jpg");
 
@@ -162,7 +170,7 @@ display : block;
 
 .minor {
 
-  
+
 }
 .pTitle {
   margin-top:100px;
