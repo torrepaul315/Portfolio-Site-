@@ -173,8 +173,10 @@ display : block;
 
 }
 .pTitle {
+  font-family: 'montserrat', cursive;
   margin-top:100px;
-  text: grey;
+  color: black;
+  /*text: rgb(140, 14, 14);*/
 }
 
 .skillStuff {
