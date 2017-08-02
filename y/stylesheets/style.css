@@ -182,8 +182,14 @@ display : block;
 .skillStuff {
   height:150px;
   width:100%;
-  margin-left: 15px;
+  /*margin-left: 15px;*/
 }
+.skillStuff2 {
+  height:150px;
+  width:100%;
+  margin-left: 10px;
+}
+
 .skillIcon{
   margin:20px;
   border: 5px, 5px, 5px, 5px;
@@ -203,6 +209,9 @@ display : block;
 }
 .skillHtm {
   margin-left: 20px;
+}
+.html {
+  margin-left: 27px;
 }
 
 .skillJqu {
@@ -266,9 +275,9 @@ display : block;
 }
 
 .Att {
-  margin-left: 450px;
+  margin: auto;
   height: 300px;
-  width: 500px;
+  /*width: 500px;*/
 }
 .aboutBar {
   width:40%;
